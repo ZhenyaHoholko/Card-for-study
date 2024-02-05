@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {  
+background-color:#EFF2F9 ;   
+height: 100vh; 
+} 
+.card{
+    width: 1170px;
+    height: 800px;
+    background: #fff;
+    box-shadow: 20px 20px 40px 0px #515b7540;
+    padding: 60px 0 70px;
+}
+.product-image-block{
+    width: 540px;
+    border-right: 2px solid rgba(20,20,20,0.15);
+}
+.preview{
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+}
+
+.preview.selected{
+    box-shadow: 8px 8px 16px 0px rgba(81, 91, 112, 0.25);
+}
